@@ -1,0 +1,35 @@
+extends ../auth.layout.pug
+
+block content
+    .wrapper
+        .hello
+            .button
+                button(class="button__login") Авторизоваться
+            .hello__container
+                .hello__card
+                    img(src="/assets/images/hello/avatar.png" alt="" class="hello__img")
+                    p.hello__name Борис Дрябин
+                    p.hello__description Личный сайт веб разработчика
+                    .socials
+                        ul.socials__list
+                            li.social__item
+                                a(href="#").social__item-link
+                                    +icon("","")
+                            li.social__item
+                                a(href="#").social__item-link
+                                    +icon("","")
+                            li.social__item
+                                a(href="#").social__item-link
+                                    +icon("","")
+                    .navigation
+                        ul.navigation__list
+                            li.navigation__item
+                                a(href="").navigation__item-link Мои работы
+                            li.navigation__item
+                                a(href="").navigation__item-link Обо мне
+                            li.navigation__item
+                                a(href="").navigation__item-link Блог
+
+
+
+
