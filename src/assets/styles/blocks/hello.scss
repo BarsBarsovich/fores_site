@@ -1,16 +1,16 @@
-.hello{
+.hello {
   height: 100vh;
   width: 100%;
   background: url("../assets/images/hello/background.png") center center /cover no-repeat;
 }
 
-.hello__container{
+.hello__container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hello__card{
+.hello__card {
   background-color: rgba(28, 31, 41, .5);
   width: 381px;
   display: flex;
@@ -19,9 +19,38 @@
   flex-direction: column;
 }
 
-.hello__img{
+.hello__name {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 28px;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.hello__desctiption {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 10px;
+}
+
+.hello__img {
   height: 142px;
   width: 142px;
   border-radius: 50%;
-  //object-fit: contain;
+  margin-top: 40px;
+}
+
+
+
+.b-skill-svg__circle-base {
+  stroke: #dfdcd5;
+}
+
+.b-skill-svg__circle-progress {
+  stroke: #1bb696;
+}
+
+.b-skill-svg {
+  fill: none;
+  stroke-width: 22;
 }

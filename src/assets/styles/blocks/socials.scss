@@ -1,0 +1,20 @@
+.socials__list{
+  display: flex;
+  padding: 40px 0 40px 0;
+}
+
+.social__item{
+  padding-right: 40px;
+  &:last-child{
+    padding-right: 0;
+  }
+}
+
+.socials__item-svg{
+  fill: #0943a9;
+  height: 28px;
+  width: 34px;
+  :hover{
+    fill: #0f3f96;
+  }
+}
