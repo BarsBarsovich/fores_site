@@ -1,0 +1,19 @@
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.button__login{
+  margin-top: 25px;
+  height: 46px;
+  width: 141px;
+  background: transparent;
+  border: 1px solid #fff;
+  outline:none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+}
